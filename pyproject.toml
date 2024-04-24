@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "conoha"
+version = "0.1.0"
+description = "conoha"
+authors = ["nobituk <nobituk@ab.auone-net.jp>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Environment :: Console",
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+coverage = "^7.3.4"
+grip = "^4.6.2"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
