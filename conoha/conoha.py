@@ -75,6 +75,8 @@ class RestApi(ABC):
             {
                 "name": context.get("image_name"),
                 "disk_format": "iso",
+                # https://www.reddit.com/r/openbsd/comments/12jzg2y/comment/jhhk1gx
+                # https://github.com/openstack/nova/blob/e2ef2240b1e732b359d29457cc12abc7554fa286/nova/virt/libvirt/blockinfo.py#L259
                 # "hw_rescue_bus": "ide",
                 "hw_rescue_bus": "sata",
                 "hw_rescue_device": "cdrom",
