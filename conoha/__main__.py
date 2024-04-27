@@ -23,8 +23,6 @@ from conoha.command import (
 )
 from conoha.conoha import ConohaRestApi, FakeConohaRestApi
 
-from . import conoha
-
 
 def version_template():
     project_metadata = Path(__file__).parent.parent.joinpath("pyproject.toml")
