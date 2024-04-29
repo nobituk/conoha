@@ -2,9 +2,10 @@
 name = "conoha"
 version = "0.1.0"
 description = "conoha"
-authors = ["nobituk <nobituk@ab.auone-net.jp>"]
 license = "GPL-3.0-only"
+authors = ["nobituk <nobituk@ab.auone-net.jp>"]
 readme = "README.md"
+repository = "https://github.com/nobituk/conoha"
 classifiers = [
 	"Development Status :: 3 - Alpha",
 	"Environment :: Console",
