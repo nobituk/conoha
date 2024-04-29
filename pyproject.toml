@@ -16,7 +16,7 @@ classifiers = [
 python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
+black = "^24.4.2"
 isort = "^5.13.2"
 coverage = "^7.3.4"
 grip = "^4.6.2"
